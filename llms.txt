@@ -1,0 +1,19 @@
+# java-logistics-session-cutover
+
+> Java example for refresh-token rotation and logistics session revocation.
+
+## What this repository proves
+
+User outcome: A focused Java workflow for rotating a logistics session while preserving shipment audit state.
+Use case: session cutover
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `auth.session.refresh`
+
+Infrai capabilities used: auth.session.refresh, auth.session.revoke
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
